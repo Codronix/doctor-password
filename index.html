@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Doctor Password</title>
+    <!-- # Bootstrap 5.3.7 -->
+    <link rel="stylesheet" href="styles/bootstrap-5.3.7/css/bootstrap.min.css">
+    <script defer src="styles/bootstrap-5.3.7/js/bootstrap.min.js"></script>
+    <!-- #  Font Awesome 6.5.2 -->
+    <link rel="stylesheet" href="icons/fontawesome/css/all.min.css">
+    <script defer src="icons/fontawesome/js/all.min.js"></script>
+    <!-- # Toastify 1.12.0 -->
+    <link rel="stylesheet" href="node_modules/toastify-js/src/toastify.css">
+    <script defer src="node_modules/toastify-js/src/toastify.js"></script>
+
+    <link rel="stylesheet" href="styles/css/custom.css">
+    <script defer src="js/app.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body class="bg-dark text-white">
+    <div class="center-div">
+        <div class="container mt-5">
+        <h1 class="text-center mb-4">Doctor Password</h1>
+        <h5 class="text-center mb-4">Consult Doctor Password to generate your strong passwords, so you don’t have to</h5>
+        <hr>
+        <form id="passwordForm" class="needs-validation" novalidate>
+            
+            <div class="mb-3">
+                <button id="btnGenerate" class="btn btn-success fw-bold" type="button">GENERATE</button>
+                <br>
+                <br>
+                <div class="input-group mb-3">
+                    <input id="txtPassword" readonly type="text" class="form-control fw-bold text-center">
+                    <button id="btnCopy" title="Copy" class="btn btn-success" type="button"><i class="fa-regular fa-copy"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
